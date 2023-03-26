@@ -9,3 +9,8 @@ add_executable(operator_priority operator_priority/operator_priority.cpp)
 
 add_executable(data_type data_type/data_type.cpp)
 add_executable(pointer pointer/pointer.cpp)
+add_executable(array array/array.cpp)
+add_executable(string string/string.cpp)
+add_executable(struct struct/struct.cpp)
+add_executable(quick_sort sort/quick_sort.cpp)
+add_executable(class class/class.cpp)

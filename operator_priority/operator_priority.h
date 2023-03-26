@@ -15,14 +15,17 @@ public:
         std::cout << "Hello, World!" << std::endl;
         int a, b, c;
         b = a = 2, a * 2;
-        std::cout << a << ", " << b << endl;
+        cout << a << ", " << b << endl;
         b = (a = 2, a * 2);
         cout << a << ", " << b << endl;
-        b = 1 > 0 ? a = 2, a = 3 : 10;
+        b = 1 > 0 ? a = 2, 3 : 10;
         cout << a << ", " << b << endl;
 
         a = b = c = 10;
         std::cout << a << ", " << b << ", " << c << ", " <<std::endl;
+
+        cout << "a的地址: " << (void*) (&a) << endl;
+        cout << "a+1的地址: " << (void*)(&a + 1) << endl;
     }
 };
 
